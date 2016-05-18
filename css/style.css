@@ -1,15 +1,13 @@
-html {
-	margin: 0;
+
+*, *:before, *:after {
+  margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit; 
+  	box-sizing: inherit; 
 
 }
 
@@ -17,9 +15,10 @@ body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;	
+	line-height: 1;
 }
 
-.section {
+section {
 	display: block;
 }
 
@@ -56,9 +55,10 @@ li {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 .top-navigation > .content {
-	height: 70px;
+	height: 4.375rem;
 	width: 970px;
   	margin: 0 auto;
   	padding: 0px 15px;
@@ -67,11 +67,12 @@ li {
 .top-navigation .links {
 	float: right;
 	margin-top: 1.7rem;
-	
+	color: #838994;
+	font-size: 1.04rem;
 }
 .links > li {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 1.563rem;
 
 }
 .top-navigation .links > .active {
@@ -84,7 +85,7 @@ li {
 }
 
 .logo {
-    height: 70px;
+    height: 4.375rem;
 }
 
 /* Intro Section */
@@ -116,6 +117,7 @@ li {
 	font-size: 1.563rem;
 }
 
+/** Buttons */
 button {
 	text-shadow: none;
 	border-style: none;
@@ -158,3 +160,57 @@ button {
 	width: 33.3333333%;
     float: left;
 }
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+
+.cases .devices p {
+	font-weight: 300
+	font-size: 1.313rem;
+}
+
+/** Footer */
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+
