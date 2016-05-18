@@ -19,6 +19,34 @@ body {
 	-webkit-font-smoothing: antialiased;	
 }
 
+.section {
+	display: block;
+}
+
+.content {
+	padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ul {
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
@@ -103,5 +131,30 @@ button {
 .buttons {
 	text-align: center;
 	margin-top: 1.563em;
+}
 
+/* Cases Section */
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.cases .content {
+	margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices > li {
+	width: 33.3333333%;
+    float: left;
 }
