@@ -1,14 +1,12 @@
 
 *, *:before, *:after {
-  margin: 0;
+  	margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-  	box-sizing: inherit; 
-
 }
 
 body {
@@ -26,6 +24,11 @@ section {
 	padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
+    width: 60%;
+}
+
+h1 {
+	margin: 0;
 }
 
 ol, ul {
@@ -34,11 +37,7 @@ ol, ul {
 
 ul {
 	display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+    padding-left: 0px;
 }
 
 li {
@@ -51,19 +50,14 @@ li {
 	background-color: #fff;
 	font-size: 16px;
 	color: #838994;
-	letter-spacing: 0.03em;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 	border-bottom: 1px solid #DDD;
 }
-.top-navigation > .content {
+.top-navigation .content {
 	height: 4.375rem;
-	width: 970px;
-  	margin: 0 auto;
-  	padding: 0px 15px;
 }
-
 .top-navigation .links {
 	float: right;
 	margin-top: 1.7rem;
@@ -123,7 +117,6 @@ button {
 	border-style: none;
 	border-radius: 4px;
 	padding: 1rem 1.5rem;
-	margin: 0 auto;
 	background-color: #f15a29; 
 	border-color: #f15a29;
 	font-size: 1.125rem;
@@ -159,6 +152,7 @@ button {
 .cases .devices > li {
 	width: 33.3333333%;
     float: left;
+
 }
 
 .cases .devices h3 {
